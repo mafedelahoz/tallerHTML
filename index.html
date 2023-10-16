@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; 
+        }
+        header {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px; 
+            line-height: 1.6; 
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .subscribe-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .subscribe-heading {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .subscribe-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .subscribe-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscribe-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taylor Swift</h1>
+        <img src="Images/taylor.webp" alt="Taylor Swift">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#bio">Biography</a></li>
+            <li><a href="#albums">Albums</a></li>
+            <li><a href="#songs">Popular Songs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>Taylor Alison Swift (born December 13, 1989) is an 
+                American singer-songwriter. Recognized for her songwriting,
+                 musical versatility, artistic reinventions, and influence on the music industry,
+                  she is a prominent cultural figure of the 21st century.
+                Swift began professional songwriting at age 14 and signed with Big Machine
+                 Records in 2005 to become a country singer. Under Big Machine, she released six studio albums,
+                  four of them to country radio, starting with her self-titled album in 2006. Her next, Fearless
+                   (2008), explored country pop, and its singles "Love Story" and "You Belong with Me" catapulted her 
+                   to prominence. Speak Now (2010) incorporated rock influences, while Red (2012) experimented with electronic 
+                   elements and featured Swift's first Billboard Hot 100 number-one song, "We Are Never Ever Getting Back Together". 
+                   She departed from her country image with 1989 (2014), a synth-pop album supported by the chart-topping songs "Shake It Off", "Blank Space", and "Bad Blood". 
+                   Media scrutiny inspired the hip-hop-flavored Reputation (2017) and its number-one single "Look What You Made Me Do".
+                   <a href="https://www.taylorswift.com/">Official Taylor Swift Fan Page</a>
+            </p>
+        </section>
+        <section id="albums">
+            <h2>Albums</h2>
+            <ul>
+                <li>Speak Now - 2010</li>
+                <li>Midnights - 2022</li>
+                <li>Lover - 2019</li>
+            </ul>
+        </section>
+        <section id="songs">
+            <h2>Popular Songs</h2>
+            <ul>
+                <li>Blank Space</li>
+                <li>Bad Blood</li>
+                <li>Enchanted</li>
+                <li>Mr. Perfectly Fine</li>
+            </ul>
+        </section>
+    
+    </style>
+</head>
+<body>
+    
+    <div class="container subscribe-container">
+        <h2 class="subscribe-heading">Suscribe to receive more swiftie news</h2>
+        <form class="subscribe-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="your e-mail" required>
+            </div>
+            <button type="submit" class="subscribe-button">Suscribe</button>
+        </form>
+    </div>
+    </main>
+</body>
+</html>
